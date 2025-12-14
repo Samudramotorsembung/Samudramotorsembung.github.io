@@ -1,194 +1,250 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SAMUDRA MOTOR SEMBUNG</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(180deg, #0d47a1, #000428);
-      color: #fff;
-    }
-    a { text-decoration: none; }
-    header {
-      background: linear-gradient(135deg, #0d47a1, #1976d2);
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    header img {
-      width: 90px;
-      margin-bottom: 10px;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 26px;
-      letter-spacing: 2px;
-    }
-    header p {
-      margin: 6px 0 0;
-      font-size: 14px;
-    }
-    nav {
-      background: #0b3c91;
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-      padding: 10px 0;
-      flex-wrap: wrap;
-    }
-    nav a {
-      color: #fff;
-      font-weight: bold;
-      font-size: 13px;
-    }
-    .hero {
-      background: url('https://images.unsplash.com/photo-1518655048521-f130df041f66') center/cover no-repeat;
-      height: 220px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: #fff;
-      padding: 10px;
-    }
-    .hero h2 {
-      background: rgba(0,0,0,0.6);
-      padding: 15px;
-      border-radius: 8px;
-      font-size: 20px;
-    }
-    .container {
-      max-width: 1100px;
-      margin: auto;
-      padding: 30px 15px;
-      background: linear-gradient(180deg, #0f2027, #203a43, #2c5364);
-      border-radius: 20px 20px 0 0;
-    }
-    .section-title {
-      text-align: center;
-      margin-bottom: 25px;
-    }
-    .section-title h3 {
-      font-size: 22px;
-      margin-bottom: 6px;
-    }
-    .services {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 15px;
-    }
-    .card {
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-    .card h4 {
-      margin-bottom: 8px;
-      color: #1976d2;
-    }
-    .contact {
-      background: #e3f2fd;
-      padding: 25px;
-      border-radius: 10px;
-      text-align: center;
-    }
-    .btn-wa {
-      display: inline-block;
-      margin-top: 12px;
-      background: #25D366;
-      color: #fff;
-      padding: 12px 20px;
-      border-radius: 30px;
-      font-weight: bold;
-    }
-    footer {
-      background: linear-gradient(135deg, #000428, #004e92);
-      color: #fff;
-      text-align: center;
-      padding: 18px;
-      font-size: 13px;
-    }
-    /* Floating WhatsApp Button */
-    .wa-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #25D366;
-      color: #fff;
-      padding: 14px 18px;
-      border-radius: 50px;
-      font-weight: bold;
-      box-shadow: 0 0 15px rgba(37,211,102,0.8);
-      animation: blink 1.2s infinite;
-      z-index: 999;
-    }
-    @keyframes blink {
-      0% { box-shadow: 0 0 5px rgba(37,211,102,0.5); }
-      50% { box-shadow: 0 0 20px rgba(37,211,102,1); }
-      100% { box-shadow: 0 0 5px rgba(37,211,102,0.5); }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SAMUDRA MOTOR Sembung Parengan Tuban | Showroom Motor</title>
+
+<meta name="description" content="SAMUDRA MOTOR Sembung Parengan Tuban. Jual beli motor bekas & baru. Cash, kredit, tukar tambah.">
+<meta name="keywords" content="Motor Bekas Tuban, samudra motor sembung, Showroom Motor parengan, samudra motor tuban, samudra motor">
+
+<!-- ===== SEO BISNIS LOKAL ===== -->
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"MotorcycleDealer",
+ "name":"SAMUDRA MOTOR",
+ "address":{
+   "@type":"PostalAddress",
+   "addressLocality":"sembung",
+   "addressRegion":"Parengan",
+   "addressCountry":"ID"
+ },
+ "telephone":"089659833666",
+ "areaServed":"Tuban"
+}
+</script>
+
+<!-- ===== VARIABEL ===== -->
+<script>
+const WA = "6289659833666";
+</script>
+
+<style>
+body{
+ margin:0;
+ font-family:'Segoe UI',Arial;
+ background:linear-gradient(180deg,#0d47a1,#020a18);
+ color:#fff;
+}
+
+/* ===== HEADER ===== */
+header{
+ background:linear-gradient(135deg,#1565c0,#0d47a1);
+ padding:30px 20px;
+ text-align:center;
+}
+header img{
+ width:90px;
+ filter:drop-shadow(0 6px 10px rgba(0,0,0,.4));
+}
+header h1{
+ margin:10px 0 5px;
+ font-size:26px;
+ letter-spacing:1px;
+}
+header p{
+ margin:4px 0;
+ font-size:14px;
+}
+
+/* ===== HERO ===== */
+.hero{
+ padding:30px 15px;
+ text-align:center;
+}
+.hero h2{
+ font-size:22px;
+ line-height:1.4;
+}
+.hero span{
+ color:#25D366;
+ font-weight:bold;
+}
+
+/* ===== CONTAINER ===== */
+.container{
+ max-width:1100px;
+ margin:auto;
+ padding:20px;
+}
+
+/* ===== KATALOG ===== */
+.grid{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+ gap:20px;
+}
+.card{
+ background:#fff;
+ color:#000;
+ border-radius:16px;
+ overflow:hidden;
+ box-shadow:0 12px 25px rgba(0,0,0,.25);
+ position:relative;
+ transition:.3s;
+}
+.card:hover{transform:translateY(-6px)}
+.card::before{
+ content:"READY";
+ position:absolute;
+ top:12px;
+ left:12px;
+ background:#e53935;
+ color:#fff;
+ font-size:11px;
+ padding:4px 10px;
+ border-radius:20px;
+}
+.card img{
+ width:100%;
+ height:150px;
+ object-fit:cover;
+}
+.card h4{
+ margin:10px;
+ color:#0d47a1;
+}
+.card p{
+ margin:0 10px 10px;
+ font-size:14px;
+}
+.btn{
+ display:block;
+ margin:10px;
+ background:linear-gradient(135deg,#25D366,#1ebc5a);
+ color:#fff;
+ text-align:center;
+ padding:12px;
+ border-radius:30px;
+ font-weight:bold;
+}
+
+/* ===== MAP ===== */
+.map{
+ margin-top:40px;
+ border-radius:15px;
+ overflow:hidden;
+ box-shadow:0 8px 20px rgba(0,0,0,.3);
+}
+
+/* ===== FLOATING WA ===== */
+.wa-float{
+ position:fixed;
+ bottom:20px;
+ right:20px;
+ background:#25D366;
+ color:#fff;
+ padding:16px 22px;
+ border-radius:50px;
+ font-weight:bold;
+ box-shadow:0 0 25px rgba(37,211,102,.9);
+ animation:pulse 1.3s infinite;
+ z-index:999;
+}
+@keyframes pulse{
+ 0%{transform:scale(1)}
+ 50%{transform:scale(1.12)}
+ 100%{transform:scale(1)}
+}
+
+/* ===== FOOTER ===== */
+footer{
+ margin-top:40px;
+ text-align:center;
+ padding:18px;
+ font-size:13px;
+ background:#000;
+}
+</style>
 </head>
+
 <body>
 
+<!-- ===== HEADER ===== -->
 <header>
-  <img src="SMS.png" alt="Logo SAMUDRA MOTOR SEMBUNG">
-  <h1>SAMUDRA MOTOR SEMBUNG</h1>
-  <p>Tukar Tambah • Cash • Kredit</p>
-  <p><a href="https://wa.me/6285233775229" style="color:#fff; font-weight:bold;">📞 085233775229 (Chat WhatsApp)</a></p>
+ <img src="SMS.png" alt="Raharjo Motor">
+ <h1>SAMUDRA MOTOR</h1>
+ <p>Sembung Parengan Tuban</p>
+ <p>
+  <a id="waTop" style="color:#fff;font-weight:bold;">
+   📞 0896-5983-3666
+  </a>
+ </p>
 </header>
 
-<nav>
-  <a href="https://wa.me/6285233775229">Home</a>
-  <a href="https://wa.me/6285233775229">Layanan</a>
-  <a href="https://wa.me/6285233775229">Tentang</a>
-  <a href="https://wa.me/6285233775229">Kontak</a>
-</nav>
-
-<section class="hero">
-  <h2>Showroom Motor Baru & Bekas<br>Terpercaya di Tuban</h2>
-</section>
-
-<div class="container">
-  <section>
-    <div class="section-title">
-      <h3>Layanan Kami</h3>
-      <p>Klik untuk langsung WhatsApp</p>
-    </div>
-    <div class="services">
-      <a href="https://wa.me/6285233775229" class="card"><h4>Motor Baru</h4><p>Unit terbaru & bergaransi</p></a>
-      <a href="https://wa.me/6285233775229" class="card"><h4>Motor Bekas</h4><p>Second pilihan, siap pakai</p></a>
-      <a href="https://wa.me/6285233775229" class="card"><h4>Tukar Tambah</h4><p>Mudah & cepat</p></a>
-      <a href="https://wa.me/6285233775229" class="card"><h4>Cash & Kredit</h4><p>DP ringan</p></a>
-    </div>
-  </section>
-
-  <section style="margin-top:40px;">
-    <div class="section-title"><h3>Kontak Kami</h3></div>
-    <div class="contact">
-      <p>📍 Sembung, Parengan, Tuban</p>
-      <p>📞 085233775229</p>
-      <a class="btn-wa" href="https://wa.me/6285233775229">Chat WhatsApp Sekarang</a>
-    </div>
-  </section>
+<!-- ===== HERO ===== -->
+<div class="hero">
+ <h2>
+  Showroom Motor <span>Terpercaya</span><br>
+  Cash • Kredit • Tukar Tambah
+ </h2>
 </div>
 
-<a class="wa-float" href="https://wa.me/6285233775229">💬 Hubungi Kami</a>
+<!-- ===== CONTENT ===== -->
+<div class="container">
 
+ <h3>🏍️ Katalog Motor Ready</h3>
+ <div class="grid" id="katalog"></div>
+
+ <h3 style="margin-top:40px;">📍 Lokasi Showroom Samudra motor sembung parengan </h3>
+<div class="map">
+  <iframe
+    src="https://www.google.com/maps?q=-7.0273083,111.7819985&hl=id&z=17&output=embed"
+    width="100%"
+    height="300"
+    style="border:0;"
+    loading="lazy">
+  </iframe>
+</div>
+
+
+<!-- ===== FLOATING WA ===== -->
+<a class="wa-float" id="waFloat">💬 Chat WhatsApp</a>
+
+<!-- ===== FOOTER ===== -->
 <footer>
-  <div style="margin-bottom:8px;">
-    <a href="https://www.tiktok.com/@samudramotorsembung" target="_blank" style="color:#fff; margin:0 6px;">TikTok</a>|
-    <a href="https://web.facebook.com/samudramotorsembung" target="_blank" style="color:#fff; margin:0 6px;">Facebook</a>|
-    <a href="https://www.youtube.com/@samudramotorsembung" target="_blank" style="color:#fff; margin:0 6px;">YouTube</a>|
-    <a href="https://www.instagram.com/samudramotorsembung" target="_blank" style="color:#fff; margin:0 6px;">Instagram</a>
-  </div>
-  © 2025 SAMUDRA MOTOR SEMBUNG
+ © 2025 SAMUDRA MOTOR Sembung Parengan Tuban
 </footer>
+
+<!-- ===== SCRIPT ===== -->
+<script>
+/* ===== DATA MOTOR (EDIT DI SINI) ===== */
+const motor = [
+ {nama:"Honda Beat 2022", harga:"11 Juta", img:"beat.jpg"},
+ {nama:"Vario 125 2021", harga:"15 Juta", img:"vario.jpg"},
+ {nama:"CB150R 2020", harga:"17 Juta", img:"cbr.jpg"}
+];
+
+/* ===== GENERATE KATALOG ===== */
+const box = document.getElementById("katalog");
+motor.forEach(m=>{
+ box.innerHTML += `
+ <div class="card">
+  <img src="${m.img}">
+  <h4>${m.nama}</h4>
+  <p>Harga: ${m.harga}</p>
+  <a class="btn" href="https://wa.me/${WA}?text=Saya%20minat%20${encodeURIComponent(m.nama)}">
+   Chat WhatsApp
+  </a>
+ </div>`;
+});
+
+/* ===== LINK WA ===== */
+document.getElementById("waTop").href = "https://wa.me/" + WA;
+document.getElementById("waFloat").href = "https://wa.me/" + WA;
+</script>
 
 </body>
 </html>
